@@ -141,6 +141,13 @@ select {
   border: 2px solid hsl(0deg, 0%, 95%);
 }
 
+nav a {
+  /* all: unset; */
+  color: rgb(0, 0, 0);
+  font-family: monospace;
+  font-size: 1.2em;
+}
+
 .card1:nth-child(2) {
   background-color: hsl(184deg, 100%, 22%);
 }
