@@ -113,6 +113,7 @@ select {
 
 .card1 a {
   text-decoration: none;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .card1 > * + * {
