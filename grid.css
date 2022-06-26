@@ -100,19 +100,19 @@ body{
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(4, 1fr);
     max-width: 800px;
-    gap: 2rem;
+    gap: 1em;
     margin: auto;
 }
 .box1{
     background-color: #EB5020;
-    grid-area: 1/1/span 2 /9;
-   padding: 7rem;
+    grid-area: 1/1/span 2 /8;
+   
 }
 
 .box2{
     background-color: #FFA401;
-    grid-area: 1/9/ span 2/13;
-   padding: 7rem;
+    grid-area: 1/8/ span 2/12;
+   
 }
 
 .box3{
@@ -122,10 +122,38 @@ body{
 
 .box4{
     background-color: #01AEFD;
-    grid-area: 3/6/span 1 / 13;
+    grid-area: 3/6/span 1 / 12;
 }
 
 .box5{
     background-color: #01AEFD;
-    grid-area: 4/6/span 1 / 13;
+    grid-area: 4/6/span 1 / 12;
+}
+
+.pad{
+  padding: 2em 4em;
+  
+}
+
+@media (max-width:430px) {
+  :root{
+    font-size: 12px;
+  }
+}
+
+@media (max-width:400px) {
+  :root{
+    font-size: 8px;
+  }
+}
+@media (max-width:300px) {
+  :root{
+    font-size: 6px;
+  }
+}
+
+@media (max-width:200px) {
+  :root{
+    font-size: 6px;
+  }
 }

@@ -126,9 +126,13 @@ nav a{
 }
 
 @media (max-width: 640px) {
-    .main {
-        display: flex;
-        max-width: remEmConverter(1100);
-        flex-wrap: wrap;
+    :root{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 400px) {
+    :root{
+        font-size: 4px;
     }
 }
